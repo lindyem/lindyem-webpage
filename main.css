@@ -1,0 +1,50 @@
+.hero{
+    height:100vh;
+}
+.name-title{
+    font-size: 80px;
+    text-align: center;
+}
+
+.blurb{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.hero-image{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-me{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.paragraphs{ 
+
+}
+.para1{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.para2{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+
+}
