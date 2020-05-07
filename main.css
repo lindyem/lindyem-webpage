@@ -1,5 +1,5 @@
 html{
-    font-size:12px;
+    font-size:16px;
 }
 .hero{
  
@@ -8,6 +8,7 @@ html{
     font-family: 'PT Sans', sans-serif;
     font-size: 6.66em;
     text-align: center;
+    padding-top: 20px;
 }
 
 .blurb{
@@ -141,6 +142,12 @@ html{
     line-height: 30px;
     margin-bottom: 10px;
 }
+
+
+.my-image{
+    width: 80%;
+
+}
 .contact{
     display: flex;
     justify-content: center;
@@ -230,6 +237,9 @@ html{
     padding-top: 10px;
     line-height: 30px;
     width: 100%;
+}
+
+
    
  
 @media all and (min-width:1200px) {
@@ -237,9 +247,7 @@ html{
     html{
         font-size:12px;
     }
-    .hero{
-     
-    }
+    
     .name-title{
         font-family: 'PT Sans', sans-serif;
         font-size: 6.66em;
@@ -276,10 +284,10 @@ html{
     }
     
     .hero-image{
-        width: 100%;
+        width: 80%;
         height: auto;
         display: block;
-        margin: 0 auto;
+        margin: 0 0;
     }
     
     .about-me{
@@ -292,13 +300,13 @@ html{
     .paragraphs{ 
         font-family: 'Lato', sans-serif;
         padding-bottom: 80px;
-        margin: 70%;
+        margin: 10%;
         
     }
     .para1{
         font-size: 1.6em;
         line-height: 30px;
-        text-align: left;
+    
         margin: 20px;
     
     }
@@ -311,7 +319,6 @@ html{
         text-align: left;
         margin: 20px;
         padding-bottom: 30px;
-    
     }
     
     .work{
@@ -365,14 +372,17 @@ html{
     }
     .contact{
         display: flex;
-        justify-content: center;
-        margin: 0 50px;
+        justify-content: space-evenly;
+        margin: 0 auto;
         line-height: 50px;
         text-align: center;
     }
     
+    .my-image{
+        width: 40%;
+        padding-bottom: 50px;
+    }
     .like-it{
-       
         color: #c49075;
         font-size: 32px;
     }
