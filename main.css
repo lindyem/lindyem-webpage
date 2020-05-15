@@ -203,9 +203,6 @@ html{
   /* Drop Down*/
   /* Dropdown Button */
 .dropbtn {
-    display:flex;
-    justify-content: center;
-    margin: 50%;
     background-color: #C49075;
     color: white;
     padding: 16px;
@@ -217,11 +214,9 @@ html{
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
     display: block;
-    width: 80%;
-    
-   
+    width: 90px;
+    margin: 0 auto;
   }
   
   /* Dropdown Content (Hidden by Default) */
