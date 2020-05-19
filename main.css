@@ -139,7 +139,9 @@ html{
     margin-bottom: 10px;
 }
 
-
+.projects{
+    display: none;
+}
 .my-image{
     width: 80%;
 
@@ -391,12 +393,11 @@ html{
         display: flex;
         flex-flow: row wrap;
         margin:40px;
-        background-color: ;
         padding-bottom: 80px;
     }
     .frontend{
         display:flex;
-        width:40%;
+        width:33%;
         flex-direction:;
         align-items: center;
     }
@@ -406,6 +407,7 @@ html{
         color: black;
         padding-top: 10px;
         line-height: 30px;
+        
     }
     .html-css{
         font-family: 'PT Sans', sans-serif;
@@ -416,10 +418,11 @@ html{
     }
     .lx{
         display:flex;
-        width:50%;
+        width:33%;
         flex-direction: column;
         align-items: center;
-        padding-left: 60px;
+        margin-left: 11px;
+    
     }
     
     .lxdesign{
@@ -435,6 +438,42 @@ html{
         color: black;
         padding-top: 10px;
         line-height: 30px;
+        padding-left: 30px;
+        
+    }
+
+    .projects{
+        width: 33%;
+        display:flex;
+         flex-direction: column;
+        align-items: center;
+    }
+    .projectstitle{
+        font-family: 'PT Sans', sans-serif;
+        color:#c49075;
+        font-size: 30px;
+        padding-top: 10px;
+        font-weight: 700;  
+    }
+    .projectstext{
+        font-family: 'Source Sans Pro', san-serif;
+        text-decoration: none;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 2em;
+    }
+
+     .projects a:link {
+        color: #c49075;
+        text-decoration: none;
+    }
+
+    .projects a:visited {
+          color:black;
+    }       
+    .projects a:hover {
+        color:black;
     }
 
     .img{
@@ -484,6 +523,7 @@ html{
     /* Drop Down*/
   /* Dropdown Button */
 .dropbtn {
+    display:none;
     background-color: #C49075;
     color: white;
     padding: 16px;
