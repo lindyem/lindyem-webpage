@@ -397,7 +397,7 @@ html{
         display: flex;
         flex-flow: row wrap;
         margin:40px;
-        padding-bottom: 80px;
+        padding-bottom: 20px;
     }
     .frontend{
         display:flex;
@@ -485,6 +485,7 @@ html{
     }
     .h2{
         width: 50%;
+        margin-top: 30px;
     }
     .contact{
         display: flex;
@@ -492,11 +493,13 @@ html{
         margin: 0 auto;
         line-height: 50px;
         text-align: center;
+        background-color: lightgray;
     }
     
     .my-image{
         width: 40%;
         padding-bottom: 50px;
+        margin-top: 30px;
     }
     .like-it{
         color: #c49075;
@@ -516,8 +519,9 @@ html{
     .find-me{
         font-family: 'PT Sans', sans-serif;
         color: gray;
-    
         text-align: center;
+        margin-top: 30px;
+        
     }
     .socialmedia{
         display: flex;
