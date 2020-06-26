@@ -94,6 +94,7 @@ html{
     padding-bottom: 40px;
     flex-flow: column;
     justify-content: center;
+    font-family: 'Lato', sans-serif
     
 }
 .frontend{
@@ -144,6 +145,7 @@ html{
 
 .projects{
     display: none;
+    font-family:'Lato', sans-serif;
 }
 .my-image{
     width: 80%;
@@ -396,7 +398,7 @@ html{
     .work{
         display: flex;
         flex-flow: row wrap;
-        margin:40px;
+        margin:10px;
         padding-bottom: 20px;
     }
     .frontend{
